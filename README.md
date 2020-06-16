@@ -23,6 +23,7 @@ sudo apt install --install-recommends winehq-stable
 4) Click on `Download for Windows`.
 5) Install as directed on the screen by clicking on `->next`.
 6) After installing click on open with `WineHQ windows program loader`.
+![Screenshot from 2020-06-16 17-13-27](https://user-images.githubusercontent.com/34000135/84770617-81568200-aff5-11ea-87b7-fab9d7952eff.png)
 
 > Steps for installation of the simulator in WINDOWS/MAC:
 1) Download [LTSpice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html).
@@ -37,15 +38,20 @@ Steps to implement the project:
 
 ### Library
 > To use the 180nm CMOS technology
-1) Download this [CMOS@180nm]()
+1) Download this [CMOS@180nm](https://github.com/sameeksha2000/On-chip-Clock-Multiplier/blob/Simulation/cmos%40180nm.lib)
 2) Copy the code excluding .end until the brackets for both nmos & pmos.
+![Screenshot from 2020-06-16 16-29-26](https://user-images.githubusercontent.com/34000135/84770798-db574780-aff5-11ea-935c-e5f43b8443a7.png)
+
 3) Click on .opt in LTSpice and paste the code there.
+![Screenshot from 2020-06-16 16-36-15](https://user-images.githubusercontent.com/34000135/84770820-e5794600-aff5-11ea-9dd2-5175b68d8fe5.png)
+
 
 ### Accessing my files
 1) Click on `Download zip file`.
 2) Click on`.asc` file which will open the schematic.
 3) Click on simulate to check the waveforms.
 4) To view the `Spice Netlist`. Go to `Edit ->SPICE Analysis'.
+![Screenshot from 2020-06-16 17-14-39](https://user-images.githubusercontent.com/34000135/84770865-017ce780-aff6-11ea-9114-afed1d42f63f.png)
 
 
 ### Schematic
