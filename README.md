@@ -1,19 +1,28 @@
 # Introduction
 ## On-Chip Clock Multiplier(PLL)(Fclkin – 5MHz to 12Mhz, Fclkout – 40MHz to 100MHz at 1.8v@osu180nm)
-> This project presents a model for clock generating circuitry using PLL techniques. The reference signal is a square wave and technology used is 180nm(@osu180nm). 
+> This project presents a model for clock generating circuitry using PLL techniques. The reference signal is a clock pulse and technology used for implementation is 180nm(@osu180nm).
 
 ### Phased Lock Loop
-> This project is focussed on developing a Phased lock loop comprising of a phase detector, Charge Pump, Low pass filter, and a voltage-controlled oscillator(VCO) which is current starved using 180nm CMOS technology. PLL has quite many applications in this electronics domain which includes Frequency Synthesizer in mobile phones or Clock generation in microprocessors.
+> This Phased lock loop comprises of a phase detector, Charge Pump, Low pass filter, and a voltage-controlled oscillator(VCO) which is current starved.The phase detector or comparator compares the input frequency with feedback frequency. The output of the phase detector is proportional to the phase difference between input and output frequency. The VCO is a sinusoidal generator whose frequency is determined by a voltage applied to it from an external source. In effect, any frequency modulator may serve as a VCO. PLL has quite many applications in this electronics domain which includes Frequency Synthesizer in mobile phones or Clock generation in microprocessors.
 
 ### Sourceware
 > The design is implemented using one of the open sourceware -`LTSpice`.
 
 ### Installation
 > Steps for installation of the simulator in LINUX:
-1) As it isn't directly supported. Download [WineHQ](https://wiki.winehq.org/Download).
-2) Download [LTSpice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html).
-3) Click on `Download for Windows`.
-4) After downloading click on open with `WineHQ windows program loader`.
+1) As it isn't directly supported, we need to download WineHQ.
+2) Copy paste the commands one after another in the terminal for downloading & installing:
+```
+sudo dpkg --add-architecture i386
+wget -O - https://dl.winehq.org/wine-builds/winehq.key | sudo apt-key add -
+sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main'
+sudo apt update
+sudo apt install --install-recommends winehq-stable
+```
+3) Download [LTSpice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html).
+4) Click on `Download for Windows`.
+5) Install as directed on the screen by clicking on `->next`.
+6) After installing click on open with `WineHQ windows program loader`.
 
 > Steps for installation of the simulator in WINDOWS/MAC:
 1) Download [LTSpice](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html).
@@ -23,10 +32,14 @@
 Steps to implement the project:
 1) Click on the desktop icon, `LTSpice VII`.
 2) Click on `New Schematic` and build your circuit diagram by placing components. 
-
-![Screenshot (353)_LI](https://user-images.githubusercontent.com/34000135/84546653-6b0fa400-ad1f-11ea-9b50-b768c685475f.jpg)
-
 3) Click on the `Simulate` button for waveforms generation.
+4) For further help with LTSpice refer the manual [LTSpice guide](http://dept.me.umn.edu/labs/hmd/lab/docs/LTspice_Guide.pdf)
+
+### Library
+> To use the 180nm CMOS technology
+1) Download this [CMOS@180nm]()
+2) Copy the code excluding .end until the brackets for both nmos & pmos.
+3) Click on .opt in LTSpice and paste the code there.
 
 ### Accessing my files
 1) Click on `Download zip file`.
