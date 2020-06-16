@@ -38,23 +38,26 @@ Steps to implement the project:
 ### Schematic
 
 - Phase detector
-![VCO](https://user-images.githubusercontent.com/34000135/84764899-0d63ac00-afec-11ea-88df-da10690bdbde.png)
-
+![Phase_Freq-Detector](https://user-images.githubusercontent.com/34000135/84765364-c2966400-afec-11ea-98bd-c16fbca247b3.png)
 
 - Charge Pump 
-![VCO](https://user-images.githubusercontent.com/34000135/84764899-0d63ac00-afec-11ea-88df-da10690bdbde.png)
+![Charge Pump](https://user-images.githubusercontent.com/34000135/84765263-9aa70080-afec-11ea-9dda-e5d47fc86231.png)
 
 - Low Pass Filter(LPF)
-![VCO](https://user-images.githubusercontent.com/34000135/84764899-0d63ac00-afec-11ea-88df-da10690bdbde.png)
+![Low Pass Filter](https://user-images.githubusercontent.com/34000135/84765326-b27e8480-afec-11ea-9f82-c823fee75e65.png)
 
 - Voltage Controlled Ring Oscillator
 ![VCO](https://user-images.githubusercontent.com/34000135/84764899-0d63ac00-afec-11ea-88df-da10690bdbde.png)
 
 
 ### WAVEFORMS
+
+![Vclk2   Vclk1](https://user-images.githubusercontent.com/34000135/84765417-d215ad00-afec-11ea-9eb8-97b940b97b7f.png)
+
 > In this the first waveform is V[Up], Second is V[Down] which are the outputs of the phase detector. The third waveform is of Vdd(1.8v) and V(Clk_input1) & V(Clk_input2).
 
-> This is V(cont) which is output of VCO.
+![Vcont](https://user-images.githubusercontent.com/34000135/84765449-dcd04200-afec-11ea-8383-7b36e1fc71f2.png)
+> This is V(cont) which is comes out of charge pump & LPF
 
 
 
