@@ -38,12 +38,18 @@ Steps to implement the project:
 ### Schematic
 
 - Phase detector
+![VCO](https://user-images.githubusercontent.com/34000135/84764899-0d63ac00-afec-11ea-88df-da10690bdbde.png)
 
 
-- Charge Pump and Low Pass Filter(LPF)
+- Charge Pump 
+![VCO](https://user-images.githubusercontent.com/34000135/84764899-0d63ac00-afec-11ea-88df-da10690bdbde.png)
 
+- Low Pass Filter(LPF)
+![VCO](https://user-images.githubusercontent.com/34000135/84764899-0d63ac00-afec-11ea-88df-da10690bdbde.png)
 
 - Voltage Controlled Ring Oscillator
+![VCO](https://user-images.githubusercontent.com/34000135/84764899-0d63ac00-afec-11ea-88df-da10690bdbde.png)
+
 
 ### WAVEFORMS
 > In this the first waveform is V[Up], Second is V[Down] which are the outputs of the phase detector. The third waveform is of Vdd(1.8v) and V(Clk_input1) & V(Clk_input2).
