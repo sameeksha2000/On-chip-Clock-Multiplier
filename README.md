@@ -38,9 +38,10 @@ Steps to implement the project:
 
 ### Library
 > To use the 180nm CMOS technology
-1) Download this [CMOS@180nm](https://github.com/sameeksha2000/On-chip-Clock-Multiplier/blob/Simulation/cmos%40180nm.lib)
+1) Download this [CMOS@180nm_NMOS](https://github.com/sameeksha2000/On-chip-Clock-Multiplier/blob/Schematic/Nmos)
+    & [CMOS@180nm_PMOS]()
 2) Copy the code excluding .end until the brackets for both nmos & pmos.
-![Screenshot from 2020-06-16 16-29-26](https://user-images.githubusercontent.com/34000135/84770798-db574780-aff5-11ea-935c-e5f43b8443a7.png)
+![Screenshot from 2020-06-19 00-50-59](https://user-images.githubusercontent.com/34000135/85063256-7f441d00-b1c7-11ea-90a2-50c1f0e943c7.png)
 
 3) Click on .opt in LTSpice and paste the code there.
 ![Screenshot from 2020-06-16 16-36-15](https://user-images.githubusercontent.com/34000135/84770820-e5794600-aff5-11ea-9dd2-5175b68d8fe5.png)
@@ -50,33 +51,37 @@ Steps to implement the project:
 1) Click on `Download zip file`.
 2) Click on`.asc` file which will open the schematic.
 3) Click on simulate to check the waveforms.
-4) To view the `Spice Netlist`. Go to `Edit ->SPICE Analysis'.
-![Screenshot from 2020-06-16 17-14-39](https://user-images.githubusercontent.com/34000135/84770865-017ce780-aff6-11ea-9114-afed1d42f63f.png)
+4) To view the `Spice Netlist`. Go to `Tools ->Export Netlist'.
+![Screenshot from 2020-06-19 00-51-49](https://user-images.githubusercontent.com/34000135/85063318-984cce00-b1c7-11ea-9a5a-9042b3f1419b.png)
+
+![Screenshot from 2020-06-19 00-52-05](https://user-images.githubusercontent.com/34000135/85063377-aef32500-b1c7-11ea-9e4d-9e0eabb4c93f.png)
 
 
 ### Schematic
 
 - Phase detector
-![Phase_Freq-Detector](https://user-images.githubusercontent.com/34000135/84765364-c2966400-afec-11ea-98bd-c16fbca247b3.png)
+![PFD](https://user-images.githubusercontent.com/34000135/85063542-ebbf1c00-b1c7-11ea-96c4-bf2fa5431680.png)
 
-- Charge Pump 
-![Charge Pump](https://user-images.githubusercontent.com/34000135/84765263-9aa70080-afec-11ea-9dda-e5d47fc86231.png)
-
-- Low Pass Filter(LPF)
-![Low Pass Filter](https://user-images.githubusercontent.com/34000135/84765326-b27e8480-afec-11ea-9f82-c823fee75e65.png)
+- Charge Pump & Low Pass Filter
+![ChargePump LPF](https://user-images.githubusercontent.com/34000135/85063505-e06bf080-b1c7-11ea-81b1-f32a3a00f615.png)
 
 - Voltage Controlled Ring Oscillator
-![VCO](https://user-images.githubusercontent.com/34000135/84764899-0d63ac00-afec-11ea-88df-da10690bdbde.png)
+![VCO](https://user-images.githubusercontent.com/34000135/85063460-cc27f380-b1c7-11ea-91c1-be1fcb28066e.png)
 
 
 ### WAVEFORMS
 
 ![Vclk2   Vclk1](https://user-images.githubusercontent.com/34000135/84765417-d215ad00-afec-11ea-9eb8-97b940b97b7f.png)
 
-> In this the first waveform is V[Up], Second is V[Down] which are the outputs of the phase detector. The third waveform is of Vdd(1.8v) and V(Clk_input1) & V(Clk_input2).
+> In this the output is of V(Clk_1) & V(Clk_2).
+
+
+> This is V(up) & V(down)
 
 ![Vcont](https://user-images.githubusercontent.com/34000135/84765449-dcd04200-afec-11ea-8383-7b36e1fc71f2.png)
-> This is V(cont) which is comes out of charge pump & LPF
+> This is V(cont) which comes out of charge pump & LPF.
+
+
 
 
 
