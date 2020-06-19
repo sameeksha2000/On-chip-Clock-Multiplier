@@ -56,6 +56,23 @@ Steps to implement the project:
 
 ![Screenshot from 2020-06-19 00-52-05](https://user-images.githubusercontent.com/34000135/85063377-aef32500-b1c7-11ea-9e4d-9e0eabb4c93f.png)
 
+NOTE: The netlist exported in this will be .cir file. So to make it universally accessible, we need to run it in `ngspice`.
+
+### Simulations in NGSpice
+> Windows
+1) Download [ngspice]() and then [ngspice gui]().
+2) Unzip the folder, then 'DuSpiceStart.exe' & 'DuSpicePlot.exe' will appear.
+3) Click on 'DuSpiceStart.exe -> New file -> include .cir file'.
+4) Click on 'Setup -> include ltspice '.
+5) Click on 'Start interact', ltspice will open.
+6) Trace the plot and the waveform will be generated.
+
+>Linux
+1) To install type 'sudo apt-get install -y ngspice'.
+2) After installation, to enter into the shell type 'ngspice'.
+3) To simulate type 'source filename.cir'.
+
+
 
 ### Schematic
 
