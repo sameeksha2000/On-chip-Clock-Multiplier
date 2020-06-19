@@ -96,11 +96,12 @@ NOTE: The netlist exported in this will be .cir file. So to make it universally 
 
 > In this the output is of V(Clk_1) & V(Clk_2).
 
-![WhatsApp Image 2020-06-18 at 23 25 04](https://user-images.githubusercontent.com/34000135/85132735-fd033980-b256-11ea-9e25-00785a335005.jpeg)
+![Screenshot from 2020-06-19 19-25-51](https://user-images.githubusercontent.com/34000135/85140389-d21ee280-b262-11ea-8b02-7c41c4f01cd4.png)
 
 > This is V(up) & V(down)
 
 ![Vcont](https://user-images.githubusercontent.com/34000135/84765449-dcd04200-afec-11ea-8383-7b36e1fc71f2.png)
+
 > This is V(cont) which comes out of charge pump & LPF.
 
 
