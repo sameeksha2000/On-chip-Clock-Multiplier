@@ -92,11 +92,11 @@ NOTE: The netlist exported in this will be .cir file. So to make it universally 
 
 ### WAVEFORMS
 
-![Vclk2   Vclk1](https://user-images.githubusercontent.com/34000135/84765417-d215ad00-afec-11ea-9eb8-97b940b97b7f.png)
+![Screenshot from 2020-06-19 19-30-15](https://user-images.githubusercontent.com/34000135/85141124-e7e0d780-b263-11ea-93b0-2dfb4d223e4e.png)
 
 > In this the output is of V(Clk_1) & V(Clk_2).
 
-![Screenshot from 2020-06-19 19-25-51](https://user-images.githubusercontent.com/34000135/85140389-d21ee280-b262-11ea-8b02-7c41c4f01cd4.png)
+![Screenshot from 2020-06-19 19-29-46](https://user-images.githubusercontent.com/34000135/85141048-cc75cc80-b263-11ea-9c85-44ad0849b35e.png)
 
 > This is V(up) & V(down)
 
