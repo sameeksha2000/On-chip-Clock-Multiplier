@@ -66,15 +66,15 @@ NOTE: The netlist exported in this will be .cir file. So to make it universally 
 4) Click on 'Setup -> include ltspice '.
 ![WhatsApp Image 2020-06-19 at 17 58 12](https://user-images.githubusercontent.com/34000135/85132651-d6450300-b256-11ea-8ae9-481432289f2c.jpeg)
 
-5) Click on 'Start interact', ltspice will open.
+5) Click on `Start interact`, ltspice will open.
 6) Trace the plot and the waveform will be generated.
 
 >Linux
-1) To install type 'sudo apt-get install -y ngspice'.
-2) After installation, to enter into the shell type 'ngspice'.
-3) To simulate type 'source filename.cir'.
+1) To install type `sudo apt-get install -y ngspice`.
+2) After installation, to enter into the shell type `ngspice`.
+3) To simulate type `source filename.cir`.
 ![Screenshot from 2020-06-19 18-06-30](https://user-images.githubusercontent.com/34000135/85134303-e6aaad00-b259-11ea-9b8d-a711d070cb3b.png)
-    Here I've first changed the directory to the location where `'.cir` file is present. command is
+    Here I've first changed the directory to the location where `.cir` file is present. command is
     cd 'location'.
 
 
