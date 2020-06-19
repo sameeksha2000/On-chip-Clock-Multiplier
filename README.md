@@ -60,7 +60,7 @@ NOTE: The netlist exported in this will be .cir file. So to make it universally 
 
 ### Simulations in NGSpice
 > Windows
-1) Download [ngspice]() and then [ngspice gui]().
+1) Download [ngspice](https://sourceforge.net/projects/ngspice/files/) and then [ngspice gui](http://ngspice.sourceforge.net/download.html).
 2) Unzip the folder, then 'DuSpiceStart.exe' & 'DuSpicePlot.exe' will appear.
 3) Click on 'DuSpiceStart.exe -> New file -> include .cir file'.
 4) Click on 'Setup -> include ltspice '.
