@@ -39,7 +39,7 @@ Steps to implement the project:
 ### Library
 > To use the 180nm CMOS technology
 1) Download this [CMOS@180nm_NMOS](https://github.com/sameeksha2000/On-chip-Clock-Multiplier/blob/Schematic/Nmos)
-    & [CMOS@180nm_PMOS]()
+    & [CMOS@180nm_PMOS](https://github.com/sameeksha2000/On-chip-Clock-Multiplier/blob/Schematic/Pmos)
 2) Copy the code excluding .end until the brackets for both nmos & pmos.
 ![Screenshot from 2020-06-19 00-50-59](https://user-images.githubusercontent.com/34000135/85063256-7f441d00-b1c7-11ea-90a2-50c1f0e943c7.png)
 
@@ -64,6 +64,8 @@ NOTE: The netlist exported in this will be .cir file. So to make it universally 
 2) Unzip the folder, then 'DuSpiceStart.exe' & 'DuSpicePlot.exe' will appear.
 3) Click on 'DuSpiceStart.exe -> New file -> include .cir file'.
 4) Click on 'Setup -> include ltspice '.
+![WhatsApp Image 2020-06-19 at 17 58 12](https://user-images.githubusercontent.com/34000135/85132651-d6450300-b256-11ea-8ae9-481432289f2c.jpeg)
+
 5) Click on 'Start interact', ltspice will open.
 6) Trace the plot and the waveform will be generated.
 
@@ -71,6 +73,7 @@ NOTE: The netlist exported in this will be .cir file. So to make it universally 
 1) To install type 'sudo apt-get install -y ngspice'.
 2) After installation, to enter into the shell type 'ngspice'.
 3) To simulate type 'source filename.cir'.
+![Screenshot from 2020-06-19 18-06-30](https://user-images.githubusercontent.com/34000135/85134303-e6aaad00-b259-11ea-9b8d-a711d070cb3b.png)
 
 
 
@@ -92,6 +95,7 @@ NOTE: The netlist exported in this will be .cir file. So to make it universally 
 
 > In this the output is of V(Clk_1) & V(Clk_2).
 
+![WhatsApp Image 2020-06-18 at 23 25 04](https://user-images.githubusercontent.com/34000135/85132735-fd033980-b256-11ea-9e25-00785a335005.jpeg)
 
 > This is V(up) & V(down)
 
