@@ -71,6 +71,18 @@ NOTE: The netlist exported in this will be .cir file. So to make it universally 
 ![Screenshot (388)](https://user-images.githubusercontent.com/34000135/85229331-ad637000-b406-11ea-8e7d-d00147a0f727.png)
 
 
+> Windows(directly by ngspice command prompt)
+1) After unzipping, Spice64 folder will be created.
+2) Click on `Spice64 -> bin .
+3) Here `ngspice.exe' & 'ngspice_con.exe' will be present.
+4) First export all your files(eg: on-chip PLL.asc, .log, .raw, spice.cir)
+5) Click on `ngspice.exe'
+6) enter your .cir file
+7) Enter `run`
+8) Enter `display`
+9) Now enter `plot Vcont, clk2, clk1`
+
+
 >Linux
 1) To install type `sudo apt-get install -y ngspice`.
 2) After installation, to enter into the shell type `ngspice`.
