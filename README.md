@@ -73,14 +73,30 @@ NOTE: The netlist exported in this will be .cir file. So to make it universally 
 
 > Windows(directly by ngspice command prompt)
 1) After unzipping, Spice64 folder will be created.
+![Screenshot (400)](https://user-images.githubusercontent.com/34000135/85324144-ed9a1f80-b4e6-11ea-9622-d1358de2a0d0.png)
 2) Click on `Spice64 -> bin .
 3) Here `ngspice.exe' & 'ngspice_con.exe' will be present.
 4) First export all your files(eg: on-chip PLL.asc, .log, .raw, spice.cir)
+![Screenshot (401)](https://user-images.githubusercontent.com/34000135/85324250-1de1be00-b4e7-11ea-9d45-1e0efd1322b7.png)
 5) Click on `ngspice.exe'
 6) enter your .cir file
+![Screenshot (392)](https://user-images.githubusercontent.com/34000135/85324280-2cc87080-b4e7-11ea-87e7-7ea2d22942fc.png)
 7) Enter `run`
+![Screenshot (393)](https://user-images.githubusercontent.com/34000135/85324309-3b168c80-b4e7-11ea-9b8d-f99e8c0115e4.png)
+
+![Screenshot (394)](https://user-images.githubusercontent.com/34000135/85324857-39999400-b4e8-11ea-98da-dee6011a0d57.png)
+
 8) Enter `display`
-9) Now enter `plot Vcont, clk2, clk1`
+![Screenshot (395)](https://user-images.githubusercontent.com/34000135/85324921-53d37200-b4e8-11ea-90d7-ebf32b767f75.png)
+
+![Screenshot (396)](https://user-images.githubusercontent.com/34000135/85324918-533adb80-b4e8-11ea-898c-e4f4eb2d0fb7.png)
+
+9) Now enter `plot Vcont, up, down`
+![Screenshot (397)](https://user-images.githubusercontent.com/34000135/85324915-52a24500-b4e8-11ea-9d2c-ba2e47b20dc4.png)
+
+![Screenshot (398)](https://user-images.githubusercontent.com/34000135/85324914-5209ae80-b4e8-11ea-904c-c3ccb9eb96e5.png)
+
+![Screenshot (399)](https://user-images.githubusercontent.com/34000135/85324908-4fa75480-b4e8-11ea-9283-c8f80818ccc1.png)
 
 
 >Linux
