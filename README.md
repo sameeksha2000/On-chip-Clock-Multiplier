@@ -103,6 +103,8 @@ NOTE: The netlist exported in this will be .cir file. So to make it universally 
 1) To install type `sudo apt-get install -y ngspice`.
 2) After installation, to enter into the shell type `ngspice`.
 3) To simulate type `source filename.cir`.
+** To access my files download [spice.cir](https://github.com/sameeksha2000/On-chip-Clock-Multiplier/blob/master/Ngspice/spice.cir)
+
 ![Screenshot from 2020-06-19 18-06-30](https://user-images.githubusercontent.com/34000135/85134303-e6aaad00-b259-11ea-9b8d-a711d070cb3b.png)
     Here I've first changed the directory to the location where `.cir` file is present. command is
     cd 'location'.
